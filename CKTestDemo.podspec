@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/chikang/CKTestDemo.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files  = "Classes", "Classes/**/*.{}"
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
   
   # spec.public_header_files = "Classes/**/*.h"
