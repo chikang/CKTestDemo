@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.description  = "这是池康的项目"
 
   spec.homepage     = "https://github.com/chikang/CKTestDemo"
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
 
 
   spec.author             = { "池康" => "18336072309@163.com" }
