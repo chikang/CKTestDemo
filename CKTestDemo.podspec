@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/chikang/CKTestDemo.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "Classes/A_Category/*.{h,m}"
+  spec.source_files  = "Classes/A_Category/**/*.{h,m}"
  
  
   spec.requires_arc = true
